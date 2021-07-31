@@ -56,7 +56,7 @@ For your convenience, I have uploaded the trained model and data to the followin
 
 [Outside China] (https://1drv.ms/u/s!Ah5yIdya3kMUi3iFo1GuY3iEtTpU?e=5b5cyL)
 
-[China] (https://www.aliyundrive.com/s/7k12eDy52NX)
+[China] (https://www.aliyundrive.com/s/3F1QJTUHjbF)
 
 
 
