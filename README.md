@@ -8,10 +8,10 @@ The target sequences obtain prior representation on the pre-trained protein sequ
 ![](https://github.com/PuYuQian/SummaryDTA/fig/network.png)
 > The flowchart of our proposed method.
 
-##Usage
-###INSTALL
+## Usage
+### INSTALL
  I am using Ubuntu Linux 18.04 LTS with an NVIDIA Tesla V100 GPU and 32GB RAM.
-###Required
+### Required
 - [Python] (https://www.python.org) (3.7.10). The easiest way to install Python and all of the necessary dependencies is to download and install [Anaconda] (https://www.anaconda.com/download/) (4.9.2).
 - [PyTorch] (https://pytorch.org/) (1.7.1).
 - [PyTorch Geometric (PyG)] (https://github.com/rusty1s/pytorch_geometric).
@@ -25,7 +25,7 @@ The target sequences obtain prior representation on the pre-trained protein sequ
 
 - [RDKit] (https://anaconda.org/rdkit/rdkit) (2020.09.1.0).
 - [Tensorboard] (`pip install tensorboard`) (2.5.0)
-###Run
+### Run
 ---
 The *data_toy* folder contains samples of the KIBA dataset. By using it, you can see the results more quickly.
 1. Train
@@ -42,7 +42,9 @@ arg3: the name of model to load, e.g. 'test'
 e.g. `python test.py 1 0 test`
 
 The output results are saved in the *results* folder, and the output loss curve is stored in the *runs* folder.
+
 For your convenience, I have uploaded the trained model and data to the following links:
+
 [Outside China] (https://1drv.ms/u/s!Ah5yIdya3kMUi3iFo1GuY3iEtTpU?e=5b5cyL)
 [China] (https://www.aliyundrive.com/s/7k12eDy52NX)
 
