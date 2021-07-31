@@ -27,6 +27,7 @@ The target sequences obtain prior representation on the pre-trained protein sequ
 ---
 The *data_toy* folder contains samples of the KIBA dataset. By using it, you can see the results more quickly.
 1. Train
+
 `python training_5folds.py arg1 arg2 arg3`
 
 arg1: choose dataset, davis = 0 and kiba = 1
@@ -38,6 +39,7 @@ arg3: the name of output model , e.g. 'test'
 e.g. `python training_5folds.py 1 0 test`
 
 2. Test
+
 `python test.py arg1 arg2 arg3`
 
 arg1: choose dataset, davis = 0 and kiba = 1
