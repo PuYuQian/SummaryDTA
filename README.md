@@ -5,7 +5,7 @@ Summary of the second academic year: drug-target binding affinity prediction
 
 The target sequences obtain prior representation on the pre-trained protein sequence model,which called ESM, and the sequence feature vectors are obtained through the variable-length RNN network and averaging operation. The targets also use the concat maps as the structure information, which describe the interaction information between the residues. The three residual blocks obtain the structure feature vector, and finally represent the target information through the concat operation. The drug SMILESs are constructed graphs through the node feature and adjacency matrix, which are obtained by the RDKit tool. Hence, the three GCN layers and the max-pooling operation are designed to obtain the graph representation vector of the drugs. Finally, the Kronecker Product is used to perform feature fusion on the candidate drug-target pair, and the final prediction binding affinity values are output through the linear layers.
 
-![](https://github.com/PuYuQian/SummaryDTA/fig/network.png)
+![](fig/network.png)
 > The flowchart of our proposed method.
 
 ## Usage
