@@ -1,5 +1,4 @@
 # How to use SummaryDTA for your research
----
 Summary of the second academic year: drug-target binding affinity prediction
 
 ***The whole content is actually an improvement on DGraphDTA, but unfortunately, the ideas are not better to improve the accuracy, so the work of this stage is summarized as follows, hope to inspire you:***
