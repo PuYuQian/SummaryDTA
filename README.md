@@ -17,11 +17,11 @@ The target sequences obtain prior representation on the pre-trained protein sequ
 - [PyTorch Geometric (PyG)] (https://github.com/rusty1s/pytorch_geometric).
 
 
-    pip install torch-scatter -f https://pytorch-geometric.com/whl/torch-1.7.1+cu102.html
-    pip install torch-sparse -f https://pytorch-geometric.com/whl/torch-1.7.1+cu102.html
-    pip install torch-cluster -f https://pytorch-geometric.com/whl/torch-1.7.1+cu102.html
-    pip install torch-spline-conv -f https://pytorch-geometric.com/whl/torch-1.7.1+cu102.html
-	pip install torch-geometric
+    `pip install torch-scatter -f https://pytorch-geometric.com/whl/torch-1.7.1+cu102.html`
+    `pip install torch-sparse -f https://pytorch-geometric.com/whl/torch-1.7.1+cu102.html`
+    `pip install torch-cluster -f https://pytorch-geometric.com/whl/torch-1.7.1+cu102.html`
+   `pip install torch-spline-conv -f https://pytorch-geometric.com/whl/torch-1.7.1+cu102.html`
+	`pip install torch-geometric`
 
 - [RDKit] (https://anaconda.org/rdkit/rdkit) (2020.09.1.0).
 - [Tensorboard] (`pip install tensorboard`) (2.5.0)
@@ -30,15 +30,24 @@ The target sequences obtain prior representation on the pre-trained protein sequ
 The *data_toy* folder contains samples of the KIBA dataset. By using it, you can see the results more quickly.
 1. Train
 `python training_5folds.py arg1 arg2 arg3`
+
 arg1: choose dataset, davis = 0 and kiba = 1
+
 arg2: choose GPU, 0 1 2 3
+
 arg3: the name of output model , e.g. 'test'
+
 e.g. `python training_5folds.py 1 0 test`
+
 2. Test
 `python test.py arg1 arg2 arg3`
+
 arg1: choose dataset, davis = 0 and kiba = 1
+
 arg2: choose GPU, 0 1 2 3
+
 arg3: the name of model to load, e.g. 'test'
+
 e.g. `python test.py 1 0 test`
 
 The output results are saved in the *results* folder, and the output loss curve is stored in the *runs* folder.
@@ -46,6 +55,7 @@ The output results are saved in the *results* folder, and the output loss curve 
 For your convenience, I have uploaded the trained model and data to the following links:
 
 [Outside China] (https://1drv.ms/u/s!Ah5yIdya3kMUi3iFo1GuY3iEtTpU?e=5b5cyL)
+
 [China] (https://www.aliyundrive.com/s/7k12eDy52NX)
 
 
