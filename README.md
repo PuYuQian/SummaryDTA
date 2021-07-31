@@ -15,13 +15,11 @@ The target sequences obtain prior representation on the pre-trained protein sequ
 - [Python] (https://www.python.org) (3.7.10). The easiest way to install Python and all of the necessary dependencies is to download and install [Anaconda] (https://www.anaconda.com/download/) (4.9.2).
 - [PyTorch] (https://pytorch.org/) (1.7.1).
 - [PyTorch Geometric (PyG)] (https://github.com/rusty1s/pytorch_geometric).
-
-
-    `pip install torch-scatter -f https://pytorch-geometric.com/whl/torch-1.7.1+cu102.html`
-    `pip install torch-sparse -f https://pytorch-geometric.com/whl/torch-1.7.1+cu102.html`
-    `pip install torch-cluster -f https://pytorch-geometric.com/whl/torch-1.7.1+cu102.html`
-   `pip install torch-spline-conv -f https://pytorch-geometric.com/whl/torch-1.7.1+cu102.html`
-	`pip install torch-geometric`
+	- `pip install torch-scatter -f https://pytorch-geometric.com/whl/torch-1.7.1+cu102.html`
+	- `pip install torch-sparse -f https://pytorch-geometric.com/whl/torch-1.7.1+cu102.html`
+	- `pip install torch-cluster -f https://pytorch-geometric.com/whl/torch-1.7.1+cu102.html`
+	- `pip install torch-spline-conv -f https://pytorch-geometric.com/whl/torch-1.7.1+cu102.html`
+	- `pip install torch-geometric`
 
 - [RDKit] (https://anaconda.org/rdkit/rdkit) (2020.09.1.0).
 - [Tensorboard] (`pip install tensorboard`) (2.5.0)
